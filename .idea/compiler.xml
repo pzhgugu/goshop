@@ -17,6 +17,83 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="goshop-common-web" />
+        <module name="goshop-manager-interface" />
+        <module name="goshop-manager-mapper" />
+        <module name="goshop-manager-pojo" />
+        <module name="goshop-manager-security" />
+        <module name="goshop-manager-service" />
+        <module name="goshop-manager-web" />
+        <module name="goshop-portal-interface" />
+        <module name="goshop-portal-rest" />
+        <module name="goshop-portal-web" />
+        <module name="goshop-seller-interface" />
+        <module name="goshop-seller-web" />
+      </profile>
+      <profile default="false" name="Annotation profile for goshop-common-attachment" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="goshop-common-attachment" />
+      </profile>
+      <profile default="false" name="Annotation profile for goshop-common-context" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="goshop-common-context" />
+      </profile>
+      <profile default="false" name="Annotation profile for goshop-common" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="goshop-common" />
+      </profile>
+      <profile default="false" name="Annotation profile for goshop-redis" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="goshop-redis" />
+      </profile>
+      <profile default="false" name="Annotation profile for goshop-common-solr" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="goshop-common-solr" />
+      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="goshop" target="1.5" />
+      <module name="goshop-common" target="1.7" />
+      <module name="goshop-common-attachment" target="1.7" />
+      <module name="goshop-common-context" target="1.7" />
+      <module name="goshop-common-solr" target="1.7" />
+      <module name="goshop-common-web" target="1.5" />
+      <module name="goshop-manager" target="1.5" />
+      <module name="goshop-manager-interface" target="1.5" />
+      <module name="goshop-manager-mapper" target="1.5" />
+      <module name="goshop-manager-pojo" target="1.5" />
+      <module name="goshop-manager-security" target="1.5" />
+      <module name="goshop-manager-service" target="1.5" />
+      <module name="goshop-manager-web" target="1.5" />
+      <module name="goshop-parent" target="1.5" />
+      <module name="goshop-portal" target="1.5" />
+      <module name="goshop-portal-interface" target="1.5" />
+      <module name="goshop-portal-rest" target="1.5" />
+      <module name="goshop-portal-web" target="1.5" />
+      <module name="goshop-redis" target="1.7" />
+      <module name="goshop-seller" target="1.5" />
+      <module name="goshop-seller-interface" target="1.5" />
+      <module name="goshop-seller-web" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

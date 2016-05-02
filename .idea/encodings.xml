@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/goshop-manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/goshop-manager/goshop-manager-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/goshop-manager/goshop-manager-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/goshop-manager/goshop-manager-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/goshop-manager/goshop-manager-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/goshop-manager/goshop-manager-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/goshop-manager/goshop-manager-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/goshop-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/goshop-parent/goshop-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/goshop-parent/goshop-common-attachment" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/goshop-parent/goshop-common-context" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/goshop-parent/goshop-common-solr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/goshop-parent/goshop-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/goshop-portal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/goshop-portal/goshop-portal-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/goshop-portal/goshop-portal-rest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/goshop-portal/goshop-portal-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/goshop-seller" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/goshop-seller/goshop-seller-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/goshop-seller/goshop-seller-web" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

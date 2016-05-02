@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/goshop-manager/goshop-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/goshop-parent/goshop-common-web" />
+    <file type="web" url="file://$PROJECT_DIR$/goshop-portal/goshop-portal-rest" />
+    <file type="web" url="file://$PROJECT_DIR$/goshop-portal/goshop-portal-web" />
+    <file type="web" url="file://$PROJECT_DIR$/goshop-seller/goshop-seller-web" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/goshop-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/goshop-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/goshop-portal/pom.xml" />
+        <option value="$PROJECT_DIR$/goshop-seller/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
     </option>
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -39,45 +50,7 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="true" assert-keyword="true" jdk-15="true">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="false" assert-keyword="true" jdk-15="true">
     <output url="file://$PROJECT_DIR$/out" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArquillianSettingsConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
