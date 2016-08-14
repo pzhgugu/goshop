@@ -3,5 +3,3 @@
 
 goshop已不再更新，现在正在开发goshop2，地址：https://github.com/pzhgugu/goshop2
 欢迎交流：pzh_gugu@126.com
-
-goshop学习交流群 105095414
