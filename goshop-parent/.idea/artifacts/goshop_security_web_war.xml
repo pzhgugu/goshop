@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="goshop.security.web:war">
-    <output-path>D:/goshop-security/goshop.security.web/target</output-path>
-    <root id="archive" name="goshop.security.web-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="goshop.security.web:war exploded" />
-    </root>
-  </artifact>
-</component>

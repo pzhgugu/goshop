@@ -152,7 +152,7 @@
                 <td class="vatop tips">格式：2009-4-30，留空表示为空</td>
             </tr>
 
-           <!-- <tr style="background: rgb(255, 255, 255) none repeat scroll 0% 0%;">
+            <!-- <tr style="background: rgb(255, 255, 255) none repeat scroll 0% 0%;">
                 <td class="required" colspan="2">排序:
                 </td>
             </tr>
@@ -400,6 +400,7 @@
     $('#articlePublishTime').datepicker();
     $('#articleEndTime').datepicker();
 
+    //KindEditor.htmlTags=null;
     var KE;
     KindEditor.ready(function (K) {
         KE = K.create("textarea[name='articleContent_zh']", {
@@ -416,6 +417,7 @@
             allowMediaUpload: false,
             allowFileManager: false,
             syncType: "form",
+            filterMode : false,
             afterCreate: function () {
                 var self = this;
                 self.sync();
@@ -455,6 +457,7 @@
             allowFlashUpload: false,
             allowMediaUpload: false,
             allowFileManager: false,
+            filterMode : false,
             syncType: "form",
             afterCreate: function () {
                 var self = this;

@@ -343,7 +343,8 @@
   </select>
 
   <select id="queryMany" resultMap="BaseResultMap">
-    SELECT distinct m.* ,i.*
+    SELECT distinct m.article_class_id,m.article_image,m.article_start_time,m.article_end_time,
+    m.article_publish_time,m.article_sort,m.article_state,m.article_publisher_name,m.article_publisher_id,i.*
     FROM
     gs_article_lang_main m
     LEFT JOIN gs_article_lang_info i ON m.article_id = i.article_id

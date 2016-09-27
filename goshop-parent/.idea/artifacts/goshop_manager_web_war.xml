@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="goshop-manager-web:war">
-    <output-path>D:/goshop-manager/goshop-manager-web/target</output-path>
-    <root id="archive" name="goshop-manager-web-1.0-SNAPSHOT.war">
+    <output-path>$PROJECT_DIR$/../goshop-manager/goshop-manager-web/target</output-path>
+    <root id="archive" name="admin.war">
       <element id="artifact" artifact-name="goshop-manager-web:war exploded" />
     </root>
   </artifact>
